@@ -54,7 +54,7 @@ function mostrarNotificacion() {
   }
 }```
 
-### Notificacions push no persistents
+### Notificacions push persistents
 
 * Estàs associades a un Service Worker.
 * Tenen unes accions associades que podrà fer l'usuari.
