@@ -21,15 +21,15 @@ Consisteix en un arxiu en format **json**.
   * src
   * type
   * sizes
-* **dir**
-* **lang**
-* description
+* **dir(ltr)**: orientació del text (ltr)
+* **lang**: llenguatge
+* **description**
 * scope
-* serviceworker
+* **serviceworker**: registrar quin és el serviceworker de l'app
   * src
   * scope
-* related_applications
-* prefer_related_aplications
+* **related_applications**: enllaç a l'app si està en algun marketplace.
+* **prefer_related_aplications**: true si preferim que s'obri l'app natiua si existeix
 * screenshots
 
 **Exemple Manifest:**
