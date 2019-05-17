@@ -6,3 +6,70 @@
 
 Consisteix en un arxiu en format **json**.
 
+## Propietats principals del arxiu Manifest
+
+* name
+* short_name
+* start_url
+* background-color
+* theme-color
+* orientation
+* display
+* icons
+  * src
+  * type
+  * sizes
+* dir
+* lang
+* description
+* scope
+* serviceworker
+  * src
+  * scope
+* related_applications
+* prefer_related_aplications
+* screenshots
+
+
+```
+\{
+  "name": "Progressive Web App",
+  "short_name": "PWA",
+  "start_url": "/?utm_source=homescreen",
+  "background-color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "dir": "ltr",
+  "lang": "es-ES",
+  "description": "Una apliación web progresiva para el curso de AWP",
+  "scope": "/",
+  "serviceworker": {
+    "src": "scripts/sw.js",
+    "scope": "/"
+  },
+  "related_applications": [{
+    "platform": "play",
+    "url": "url/a/la/app",
+    "id": "es.carherco.pwa"
+  }],
+  "prefer_related_applications": true,
+  "screenshots": [
+    {
+      "src": ""
+    },
+    {
+      "src": ""
+    }
+  ]
+
+}
+```
+
