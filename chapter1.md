@@ -1,3 +1,8 @@
-# First Chapter
+# Com fer instal·lables les PWA
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+## L'arxiu Manifest
+
+> L'arxiu **Manifest** permet informar al disposiu que la web és instal·lable.
+
+Consisteix en un arxiu en format **json**.
+
