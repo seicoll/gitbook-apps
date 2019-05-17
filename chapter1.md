@@ -11,10 +11,10 @@ Consisteix en un arxiu en format **json**.
 * **name**: nom de l'aplicació
 * **short_name**: un cop instal·lada apareix a sota l'icona
 * **start_url**: url de la pàgina d'inici
-* background-color
-* theme-color
-* orientation
-* display
+* **background-color:** color de fons de la pantalla mentre carrega l'aplicació (screen splash: pantalla amb color de fons i logo)
+* **theme-color:** color de la barra superior de l'app
+* **orientation (any|landscape|portrait):**
+* **display**
 * icons
   * src
   * type
