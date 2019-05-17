@@ -17,7 +17,7 @@ Poden ser persistents o no persistents.
 
 ### Notificacions push no persistents
 
-No estan associades a un service worker.
+No estan associades a un Service Worker.
 
 Els navegadors que soporten notificacions push disposen d'un classe `Notification`.
 
@@ -41,9 +41,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //Mostrar la notificació
 function mostrarNotificacion() {
-  if (Notification.permission !== "granted")
-    Notification.requestPermission();
-  else {
     var notification = new Notification('Título de la notificación', {
       icon: './logo.jpg',
       body: "Este es el cuerpo de la notificación",
@@ -53,8 +50,14 @@ function mostrarNotificacion() {
       window.open("https://openwebinars.net/");      
     };
 
+    notification.close();
   }
 }```
+
+### Notificacions push no persistents
+
+* Estàs associades a un Service Worker.
+* Tenen unes accions associades que podrà fer l'usuari.
 
  
 
