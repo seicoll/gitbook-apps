@@ -8,9 +8,9 @@ Consisteix en un arxiu en format **json**.
 
 ## Propietats principals del arxiu Manifest
 
-* name
-* short_name
-* start_url
+* **name**
+* **short_name**: un cop instal·lada apareix a sota l'icona
+* **start_url**: url de la pàgina d'inici
 * background-color
 * theme-color
 * orientation
@@ -32,7 +32,7 @@ Consisteix en un arxiu en format **json**.
 
 
 ```
-\{
+{
   "name": "Progressive Web App",
   "short_name": "PWA",
   "start_url": "/?utm_source=homescreen",
