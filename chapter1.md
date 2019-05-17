@@ -13,14 +13,14 @@ Consisteix en un arxiu en format **json**.
 * **start_url**: url de la pàgina d'inici
 * **background-color:** color de fons de la pantalla mentre carrega l'aplicació (screen splash: pantalla amb color de fons i logo)
 * **theme-color:** color de la barra superior de l'app
-* **orientation (any|landscape|portrait):**
-* **display**
-* icons
+* **orientation (any|landscape|portrait):** amb les opcions landscape i portrait l'app no es canviarà d'orientació al girar el dispositiu.
+* **display (standalone| )**
+* **icons**: icones de l'aplicació per diferents resolucions
   * src
   * type
   * sizes
-* dir
-* lang
+* **dir**
+* **lang**
 * description
 * scope
 * serviceworker
