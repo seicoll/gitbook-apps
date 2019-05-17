@@ -8,7 +8,7 @@ Consisteix en un arxiu en format **json**.
 
 ## Propietats principals del arxiu Manifest
 
-* **name**
+* **name**: nom de l'aplicació
 * **short_name**: un cop instal·lada apareix a sota l'icona
 * **start_url**: url de la pàgina d'inici
 * background-color
@@ -30,6 +30,7 @@ Consisteix en un arxiu en format **json**.
 * prefer_related_aplications
 * screenshots
 
+**Exemple Manifest:**
 
 ```
 {
