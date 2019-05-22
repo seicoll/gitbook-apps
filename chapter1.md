@@ -76,3 +76,26 @@ Consisteix en un arxiu en format **json**.
 }
 ```
 
+## Indicar el Manifest
+
+En el `index.html`  cal afegir:
+
+```
+<link rel="manifest" href="manifest.json?v=1" />
+```
+
+## Generar un Manifest
+
+https://realfavicongenerator.net/
+
+Ens permet generar els icones de l'app i un **Manifest** base.
+
+Si complim un sèrie de requeriments, el navegador mostrarà un **banner al usuari indicant que la web és instal·lable**.
+
+Requeriments de Chrome: https://developers.google.com/web/fundamentals/app-install-banners/#criteria
+
+
+## Exeples de PWAs
+
+https://pwa.rocks/
+
