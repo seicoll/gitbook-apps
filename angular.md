@@ -50,4 +50,18 @@ The --open (or just -o) option automatically opens your browser to `http://local
 * [Angular.io: Setting up the Local Environment and Workspace](https://angular.io/guide/setup-local)
 
 
+## Creació de components
+
+```bash+theme:dark
+ng generate component compoment-name
+```
+
+És equivalent fer:
+
+```bash+theme:dark
+ng g c compoment-name
+```
+
+
+
    
