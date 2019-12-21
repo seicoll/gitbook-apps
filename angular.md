@@ -16,19 +16,25 @@ Aquest framework es sol actualitzar cada 6 mesos.
 
 ## Instal·lació
 
-**Prerequisits:**
+###Prerequisits:
 
 Instal·lar [Node JS](https://nodejs.org/es/): Javascript del costat del servidor.
 
-**Step 1: Install the Angular CLI**
+###Step 1: Install the Angular CLI
 
 Utilitzant `npm` (el gestor des paquets de NodeJs), instal·lem Angular **CLI (_Command Line Interface_)** de forma global (-g).
 
-```bash
+```bash+theme:dark
 npm install -g @angular/cli
 ```
 
+> **Alerta**: Cal executar-lo com a administrador.
 
+### Step 2: Create a workspace and initial application
+
+```bash+theme:dark
+ng new my-app
+```
 
 **Més informació:**
 
