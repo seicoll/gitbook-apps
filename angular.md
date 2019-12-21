@@ -117,7 +117,7 @@ ng g c compoment-name
 Un component està format pel **Decorador **i la **Classe**:
 
 **app.component.ts**
-```javaScript
+```javascript
 import { Component } from '@angular/core';
 
 //Decorador
