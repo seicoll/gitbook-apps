@@ -20,7 +20,7 @@ L'**arquitectura web client-servidor** es basa en que el client web fa peticions
 
 ## Versions
 
-La primera vesió d'Angular s'anomenava **AngularJS**.
+La primera versió d'Angular s'anomenava **AngularJS**.
 
 * **AngularJS**: 1.0 ... 1.7 
 
@@ -77,6 +77,25 @@ ng generate component compoment-name
 ```bash+theme:dark
 ng g c compoment-name
 ```
+
+## Interpolació 
+
+`{{ }}`
+
+## Property binding
+
+`[]= "" `
+
+HMTL Propierty <-> Class propierty
+
+## Event binding
+
+`(click) = "onCrearElement()"`
+
+## Two way binding
+
+`[(ngModel)] = "nomPersona"`
+
 
 
 
