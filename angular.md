@@ -36,6 +36,13 @@ npm install -g @angular/cli
 ng new my-app
 ```
 
+### Step 3: Run the application
+
+```bash+theme:dark
+cd my-app
+ng serve --open
+```
+
 **Més informació:**
 
 * [Angular.io: Setting up the Local Environment and Workspace](https://angular.io/guide/setup-local)
