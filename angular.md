@@ -22,11 +22,13 @@ Instal·lar [Node JS](https://nodejs.org/es/): Javascript del costat del servido
 
 **Step 1: Install the Angular CLI**
 
-Utilitzant `npm` (el gestor des paquets de NodeJs), instal·lem Angular de forma global (-g).
+Utilitzant `npm` (el gestor des paquets de NodeJs), instal·lem Angular **CLI (_Command Line Interface_)** de forma global (-g).
 
 ```bash
 npm install -g @angular/cli
 ```
+
+
 
 **Més informació:**
 
