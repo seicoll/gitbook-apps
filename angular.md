@@ -89,14 +89,16 @@ Estructura mínima d'un projecte Angular:
 
 ```
 
-* **package.json**: serveix per definir totes les dependències de l'aplicació. NPM buscarà aquestes dependències a internet per instal·lar-les.
+* **package.json**: serveix per definir totes les dependències de l'aplicació. 
+  * NPM buscarà aquestes dependències a internet per instal·lar-les.
 * **main.ts**: Inicia l'aplicació (Bootstraping)
-app.component.js -> component principal de l’aplicació. 
-La nomenclatura és una convenció recomenable:	nomComponent.component.js
-index.html -> Única pàgina de l’aplicació (SPAs) on injectarem codi html (templates).
-
+* **index.html**: Única pàgina de l'aplicació (SPAs) on injectarem codi html (templates)
+* **app.component.ts**: component principal de l'aplicació. 
+  * La nomenclatura és una convenció recomenable:	`nomComponent.component.js` 
 
 ## Creació de components
+
+
 
 ```bash+theme:dark
 ng generate component compoment-name
