@@ -43,6 +43,8 @@ cd my-app
 ng serve --open
 ```
 
+The --open (or just -o) option automatically opens your browser to `http://localhost:4200/`.
+
 **Més informació:**
 
 * [Angular.io: Setting up the Local Environment and Workspace](https://angular.io/guide/setup-local)
