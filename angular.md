@@ -2,6 +2,17 @@
 
 > **Angular** is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations.
 
+> **Angular** és un framework del costat client per desenvolupar aplicacions dinàmiques.
+
+L'a**rquitectura web client-servidor** es basa en que el client web fa peticions al servidor i el servidor respon amb una nova pàgina que es recarrega al navegador.
+
+**SPAs** (**_Single Page Applications_**): Es carrega inicialment la pàgina i el servidor només retorna dades o part de la pàgina que s'injecten a la mateixa pàgina. 
+* La pàgina mai es recarrega.
+* Millora l'experiència de l'usuari.
+* Evitem tràfic perquè s'envia menys informació.
+
+
+
 ## Versions
 
 La primera vesió d'Angular s'anomenava **AngularJS**.
