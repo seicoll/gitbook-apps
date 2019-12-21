@@ -6,17 +6,17 @@
 
 L'**arquitectura web client-servidor** es basa en que el client web fa peticions al servidor i el servidor respon amb una nova pàgina que es recarrega al navegador.
 
-**SPAs** (**_Single Page Applications_**): Es carrega inicialment la pàgina i el servidor només retorna dades o part de la pàgina que s'injecten a la mateixa pàgina. 
+> **SPAs** (**_Single Page Applications_**) és una aplicació web que carrega inicialment la pàgina i el servidor només retorna dades o part de la pàgina que s'**_injecten_** a la mateixa pàgina. 
+
 * La pàgina mai es recarrega.
 * Millora l'experiència de l'usuari.
-* Evitem tràfic perquè s'envia menys informació.
+* Evitem tràfic perquè s'envia menys informació (només dades en format JSON).
 
 **Avantatges**
 * Empresa que hi ha darrere és Google.
 * Temps curt d'aprenentatge.
 * Optimització en el desenvolupament. Ràpid desenvolupament.
 * Normalitza com estructurem el nostre software (js, html, css, etc…).
-
 
 ## Versions
 
@@ -35,6 +35,12 @@ Aquest framework es sol actualitzar cada 6 mesos.
 ###Prerequisits:
 
 Instal·lar [Node JS](https://nodejs.org/es/): Javascript del costat del servidor.
+
+Instal·lant la última versió de **npm**.
+
+```bash+theme:dark
+npm install npm@latest -g    
+```
 
 ###Step 1: Install the Angular CLI
 
@@ -64,6 +70,30 @@ The --open (or just -o) option automatically opens your browser to `http://local
 **Més informació:**
 
 * [Angular.io: Setting up the Local Environment and Workspace](https://angular.io/guide/setup-local)
+
+
+## Estructura del projecte
+
+Estructura mínima d'un projecte Angular:
+
+```
+|__ src
+|    |_app
+|    |   |__ app.component.ts
+|    |   |__ app.component.html
+|    |   |__ app.component.css
+|    |__ index.html (SPA)
+|    |__ main.ts
+|    |__ styles.css
+|__ package.json
+
+```
+
+* **package.json**: serveix per definir totes les dependències de l'aplicació. NPM buscarà aquestes dependències a internet per instal·lar-les.
+* **main.ts**: Inicia l'aplicació (Bootstraping)
+app.component.js -> component principal de l’aplicació. 
+La nomenclatura és una convenció recomenable:	nomComponent.component.js
+index.html -> Única pàgina de l’aplicació (SPAs) on injectarem codi html (templates).
 
 
 ## Creació de components
