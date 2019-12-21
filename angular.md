@@ -11,6 +11,10 @@ Aquest framework es sol actualitzar cada 6 mesos.
 
 ## Instal·lació
 
+**Prerequisits:**
+
+Instal·lar [Node JS](https://nodejs.org/es/): Javascript del costat del servidor.
+
 
 **Més informació:**
 
