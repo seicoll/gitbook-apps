@@ -130,10 +130,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'First Angular App';
 }
-
 ```
 
+* Les classes han de ser exportades (**export**) perquè puguin ser utilitzades des d'altres parts de l'aplicació.
+
 ## Interpolació 
+
+http://rst.boscdelacoma.cat/webClient/uf4/angular-4.rst.html
 
 `{{ }}`
 
