@@ -127,7 +127,7 @@ import { Component } from '@angular/core';
 })
 //Classe
 export class AppComponent {
-  title = 'Fist Angular App';
+  title = 'First Angular App';
 }
 
 ```
