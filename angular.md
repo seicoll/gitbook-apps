@@ -98,7 +98,11 @@ Estructura mínima d'un projecte Angular:
 
 ## Creació de components
 
+Els **components **són l'element bàsic en Angular.
+* Quasi tot són components.
+* Consisteixen en una agrupació de codi per ser reutilitzat.
 
+**Crear un component amb CLI:**
 
 ```bash+theme:dark
 ng generate component compoment-name
@@ -108,6 +112,25 @@ ng generate component compoment-name
 
 ```bash+theme:dark
 ng g c compoment-name
+```
+
+Un component està format pel **Decorador **i la **Classe**:
+
+```
+
+import { Component } from '@angular/core';
+
+//Decorador
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+//Classe
+export class AppComponent {
+  title = 'Fist Angular App';
+}
+
 ```
 
 ## Interpolació 
