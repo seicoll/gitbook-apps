@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Angular](angular.md)
 * [Aplicacions híbrides](aplicacions-hibrides.md)
   * [Ionic](aplicacions-hibrides/ionic.md)
 * [PWA](pwa.md)
