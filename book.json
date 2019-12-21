@@ -4,8 +4,8 @@
     "language": "ca",
     "plugins": [
         "page-toc",
+        "prism", 
         "-highlight",
-        "sunlight-highlighter",
         "collapsible-chapters",
         "back-to-top-button"
     ],
@@ -26,6 +26,14 @@
             "theme": "light",
             "lineNumber": false
          },
-        "collapsible-chapters":{}
+        "collapsible-chapters":{},
+        "prism": {
+            "css": [
+              "prismjs/themes/prism-solarizedlight.css"
+            ],
+            "lang": {
+              "flow": "typescript"
+            }
+      }
     }
 }
