@@ -114,10 +114,10 @@ ng generate component compoment-name
 ng g c compoment-name
 ```
 
-Un component està format pel **Decorador **i la **Classe**:
+Un component està format pel **Decorador** i la **Classe**:
 
 **app.component.ts**
-```javascript
+```csharp
 import { Component } from '@angular/core';
 
 //Decorador
