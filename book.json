@@ -3,7 +3,7 @@
     "author": "Sergi Coll",
     "language": "ca",
     "plugins": [
-        "etoc",
+        "page-toc",
         "-highlight",
         "sunlight-highlighter",
         "collapsible-chapters",
@@ -14,11 +14,11 @@
         "website": "./styles/website.css"
     },
     "pluginsConfig": {
-        "etoc": {
-            "mindepth": 2,
-            "maxdepth": 4,
-            "notoc": false
-        },
+        "page-toc":{
+             "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4",
+             "position": "before-first",
+             "showByDefault": true
+         },
         "theme-default": {
             "showLevel": false
         },
