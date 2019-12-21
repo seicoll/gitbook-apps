@@ -34,7 +34,11 @@ Aquest framework es sol actualitzar cada 6 mesos.
 
 ###Prerequisits:
 
-Instal·lar [Node JS](https://nodejs.org/es/): Javascript del costat del servidor.
+Instal·lar [Node JS](https://nodejs.org/es/)
+
+> **Node.js** permet crear aplicacions utilitzant Javascript en el costat del servidor.
+
+Quan istal·lem Node.js també s'instal·la el **NPM(Node Package Manager)**.
 
 Instal·lant la última versió de **npm**.
 
@@ -153,6 +157,22 @@ HMTL Propierty <-> Class propierty
 ## Two way binding
 
 `[(ngModel)] = "nomPersona"`
+
+## Documentacio i recursos
+
+Code School: Shaping up with Angular.js
+	https://www.codeschool.com/courses/shaping-up-with-angular-js
+
+w3schools.com: Curs Angular
+
+http://www.w3schools.com/angular/
+
+Learn Angular
+
+http://www.learn-angular.org/
+
+
+https://egghead.io/
 
 
 
