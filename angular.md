@@ -138,11 +138,23 @@ export class AppComponent {
 
 * Les classes han de ser exportades (**export**) perquè puguin ser utilitzades des d'altres parts de l'aplicació.
 
+---
+
 ## Interpolació 
 
 http://rst.boscdelacoma.cat/webClient/uf4/angular-4.rst.html
 
-`{{ }}`
+El que es col·loca entre les dobles claus són anomenades expressions. 
+
+Angular les avaluarà abans de bolcar el resultat dins el template.
+
+`{{ 1+ 1 }}`
+
+`{{ ! valorBolea }}`
+
+Una expressió pot ser una cosa tan simple com una **propietat del component.**
+
+`{{ nomPropietat }}`
 
 ## Property binding
 
