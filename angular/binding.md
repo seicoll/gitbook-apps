@@ -1,10 +1,10 @@
 # Binding en Angular
 
-En Angular hi ha diversos tipus de binding:
+En Angular hi ha diversos **tipus de binding**:
 
-* Del model a la vista
+* Del model a la vista --> `{{}}` o bé `[]`
 * De la vista al model --> `()`
-* Bidireccional o en dos sentits --> `[()]^
+* Bidireccional o en dos sentits --> `[()]`
 
 ## Interpolació 
 
