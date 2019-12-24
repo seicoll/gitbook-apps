@@ -144,7 +144,7 @@ export class AppComponent {
 
 http://rst.boscdelacoma.cat/webClient/uf4/angular-4.rst.html
 
-El que es col·loca entre les dobles claus són anomenades expressions. 
+> En Angular, el que es col·loca entre les dobles claus són anomenades expressions. 
 
 Angular les avaluarà abans de bolcar el resultat dins el template.
 
@@ -170,21 +170,18 @@ HMTL Propierty <-> Class propierty
 
 `[(ngModel)] = "nomPersona"`
 
-## Documentacio i recursos
+## Documentació i recursos
 
-Code School: Shaping up with Angular.js
-	https://www.codeschool.com/courses/shaping-up-with-angular-js
+* **w3schools.com: Curs Angular:** http://www.w3schools.com/angular/
 
-w3schools.com: Curs Angular
-
-http://www.w3schools.com/angular/
-
-Learn Angular
-
+* **Learn Angular**
 http://www.learn-angular.org/
 
 
 https://egghead.io/
+
+* **Desarrolloweb: Manual de Angular**: 
+  https://desarrolloweb.com/manuales/manual-angular-2.html 
 
 
 
