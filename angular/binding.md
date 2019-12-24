@@ -59,8 +59,10 @@ Al posar els claudàtors, els atributs HTML deixen de ser atributs de l'HTML per
 **Events amb tecles:**
 
 ```csharp
+//Vista
 <input type="text" (keydown)="showKey($event)">
 
+//Model
 showKey(event){
    alert(event.keyCode);
 }
@@ -68,14 +70,27 @@ showKey(event){
 
 ## Two way binding
 
-
-
-http://rst.boscdelacoma.cat/webClient/uf4/angular-4.rst.html
 > En el **two way binding** (a dos sentits) la informació flueix en tots dos sentits, des del model a la vista i des de la vista a el model.
 
-S'expressa entre claudàtors i parèntesis. 
+S'utilitza en els **formularis** i s''expressa entre claudàtors i parèntesis. 
 
 `[(ngModel)] = "nomPersona"`
+
+`<input type="text" [(ngModel)]="nomPersona">`
+
+Per utilitzar-lo és necessari importar `FormModule`
+
+**angular.js**
+```csharp
+importem FormModule
+
+import { FormsModule } from '@angular/forms';
+...
+...
+@NgModule({
+  imports: [ BrowserModule, FormsModule ],
+...
+```
 
 ## Resum
 
