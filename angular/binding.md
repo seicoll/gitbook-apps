@@ -12,10 +12,7 @@ En Angular hi ha diversos **tipus de binding**:
 * Bidireccional o en dos sentits --> `[()]`
 
 ## Interpolació 
-
-http://rst.boscdelacoma.cat/webClient/uf4/angular-4.rst.html
-
-> En Angular, el que es col·loca entre les dobles claus són anomenades expressions. 
+ En Angular, el que es col·loca entre les dobles claus són anomenades expressions. 
 
 Angular les avaluarà abans de bolcar el resultat dins el template.
 
@@ -69,10 +66,11 @@ showKey(event){
 }
 ```
 
-
-
 ## Two way binding
 
+
+
+http://rst.boscdelacoma.cat/webClient/uf4/angular-4.rst.html
 > En el **two way binding** (a dos sentits) la informació flueix en tots dos sentits, des del model a la vista i des de la vista a el model.
 
 S'expressa entre claudàtors i parèntesis. 
