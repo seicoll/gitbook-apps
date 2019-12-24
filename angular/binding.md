@@ -1,5 +1,11 @@
 # Binding en Angular
 
+En Angular hi ha diversos tipus de binding:
+
+* Del model a la vista
+* De la vista al model --> `()`
+* Bidireccional o en dos sentits --> `[()]^
+
 ## Interpolació 
 
 http://rst.boscdelacoma.cat/webClient/uf4/angular-4.rst.html
