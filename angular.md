@@ -160,9 +160,15 @@ Una expressió pot ser una cosa tan simple com una **propietat del component.**
 
 > El **property binding** serveix per assignar un valor a una propietat d'un element d'un template.
 
-`[]= "" `
+Connectem una propietat HTML amb una propietat de la Classe:
 
-HMTL Propierty <-> Class propierty
+**HMTL Propierty <-> Class propierty**
+
+`<img [src]="rutaImatge">`
+
+`<button [disabled]="estatBoto">Estic activa o desactivat</button>`
+
+
 
 ## Event binding
 
