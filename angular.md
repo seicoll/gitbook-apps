@@ -158,6 +158,8 @@ Una expressió pot ser una cosa tan simple com una **propietat del component.**
 
 ## Property binding
 
+> El **property binding** serveix per assignar un valor a una propietat d'un element d'un template.
+
 `[]= "" `
 
 HMTL Propierty <-> Class propierty
