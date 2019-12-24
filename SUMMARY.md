@@ -2,6 +2,11 @@
 
 * [Introduction](README.md)
 * [Angular](angular.md)
+  * [Binding](angular/binding.md)
+  * Directives
+  * Services
+  * Observables
+  * Routing
 * [Aplicacions híbrides](aplicacions-hibrides.md)
   * [Ionic](aplicacions-hibrides/ionic.md)
 * [PWA](pwa.md)

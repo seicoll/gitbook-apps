@@ -140,43 +140,7 @@ export class AppComponent {
 
 ---
 
-## Interpolació 
 
-http://rst.boscdelacoma.cat/webClient/uf4/angular-4.rst.html
-
-> En Angular, el que es col·loca entre les dobles claus són anomenades expressions. 
-
-Angular les avaluarà abans de bolcar el resultat dins el template.
-
-`{{ 1+ 1 }}`
-
-`{{ ! valorBolea }}`
-
-Una expressió pot ser una cosa tan simple com una **propietat del component.**
-
-`{{ nomPropietat }}`
-
-## Property binding
-
-> El **property binding** serveix per assignar un valor a una propietat d'un element d'un template.
-
-Connectem una **propietat HTML** amb una **propietat de la Classe** que implementa el component:
-
-**HMTL Propierty <---> Class propierty**
-
-`<img [src]="rutaImatge">`
-
-`<button [disabled]="estatBoto">Estic activa o desactivat</button>`
-
-Al posar els claudàtors, els atributs HTML deixen de ser atributs de l'HTML per passar a ser propietats del template d'Angular.
-
-## Event binding
-
-`(click) = "onCrearElement()"`
-
-## Two way binding
-
-`[(ngModel)] = "nomPersona"`
 
 ## Documentació i recursos
 
