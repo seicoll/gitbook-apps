@@ -80,7 +80,7 @@ S'utilitza en els **formularis** i s''expressa entre claudàtors i parèntesis.
 
 Per utilitzar-lo és necessari importar `FormModule`
 
-**angular.js**
+**app.module.ts**
 ```csharp
 importem FormModule
 
