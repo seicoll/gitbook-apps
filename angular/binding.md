@@ -52,7 +52,9 @@ S'expressa entre claudàtors i parèntesis.
 
 `[(ngModel)] = "nomPersona"`
 
-## Flux de la informació de la vista al model i del model a vista
+## Resum
+
+**Flux de la informació de la vista al model i del model a la vista:**
 
 ![](/assets/angular-binding.png)
 
