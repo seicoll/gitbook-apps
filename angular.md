@@ -172,8 +172,6 @@ HMTL Propierty <-> Class propierty
 
 ## Documentació i recursos
 
-* **w3schools.com: Curs Angular:** http://www.w3schools.com/angular/
-
 * **Learn Angular**
 http://www.learn-angular.org/
 
