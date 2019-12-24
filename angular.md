@@ -168,7 +168,7 @@ Connectem una **propietat HTML** amb una **propietat de la Classe** que implemen
 
 `<button [disabled]="estatBoto">Estic activa o desactivat</button>`
 
-
+Al posar els claudàtors, els atributs HTML deixen de ser atributs de l'HTML per passar a ser propietats del template d'Angular.
 
 ## Event binding
 
