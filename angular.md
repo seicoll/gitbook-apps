@@ -100,7 +100,11 @@ Estructura mínima d'un projecte Angular:
 * **app.component.ts**: component principal de l'aplicació. 
   * La nomenclatura és una convenció recomenable:	`nomComponent.component.js` 
 
+---
 ## Creació de components
+
+https://ngchallenges.gitbook.io/project/componentes
+
 
 Els **components **són l'element bàsic en Angular.
 * Quasi tot són components.
