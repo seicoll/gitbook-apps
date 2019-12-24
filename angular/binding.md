@@ -1,8 +1,13 @@
 # Binding en Angular
 
+
+> El **Binding** permet enllaçar les dades amb la vista (HTML) fent actualitzar la pàgina.
+
+Cada vegada que canviï el model també es canviarà la vista.
+
 En Angular hi ha diversos **tipus de binding**:
 
-* Del model a la vista --> `\{\{ \}\}` o bé `[]`
+* Del model a la vista --> `[]`
 * De la vista al model --> `()`
 * Bidireccional o en dos sentits --> `[()]`
 
@@ -36,6 +41,8 @@ Connectem una **propietat HTML** amb una **propietat de la Classe** que implemen
 
 Al posar els claudàtors, els atributs HTML deixen de ser atributs de l'HTML per passar a ser propietats del template d'Angular.
 
+> Si la propietat del component canvia, actualitza la pàgina (el DOM).
+
 ## Event binding
 
 > L'**esdeveniment** es col·loca entre parèntesi i després cal assignar-li una sentència a executar (_**statement**_) com a resposta a aquest esdeveniment.
@@ -43,6 +50,26 @@ Al posar els claudàtors, els atributs HTML deixen de ser atributs de l'HTML per
 `(click) = "processarEvent($event)"`
 
 * L'objecte `$event`ens ofereix informació sobre l'esdeveniment que s'acaba de produir.
+
+**Exemples d'altres events:**
+
+* `<div (mouseover)="call()">`
+* `<input (blur)="call()">`
+* `<input (focus)="call()">`
+* `<input type="text" (keydown)="call()">`
+* `<form (submit)="call()">`
+
+**Events amb tecles:**
+
+```csharp
+<input type="text" (keydown)="showKey($event)">
+
+showKey(event){
+   alert(event.keyCode);
+}
+```
+
+
 
 ## Two way binding
 
