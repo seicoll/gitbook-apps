@@ -2,7 +2,7 @@
 
 En Angular hi ha diversos **tipus de binding**:
 
-* Del model a la vista --> `{{ }}` o bé `[]`
+* Del model a la vista --> `\{\{ \}\}` o bé `[]`
 * De la vista al model --> `()`
 * Bidireccional o en dos sentits --> `[()]`
 
