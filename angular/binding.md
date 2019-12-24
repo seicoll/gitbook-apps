@@ -72,13 +72,13 @@ showKey(event){
 
 > En el **two way binding** (a dos sentits) la informació flueix en tots dos sentits, des del model a la vista i des de la vista a el model.
 
-S'utilitza en els **formularis** i s''expressa entre claudàtors i parèntesis. 
+S'utilitza en els **formularis** i s'expressa entre claudàtors i parèntesis. 
 
 `[(ngModel)] = "nomPersona"`
 
 `<input type="text" [(ngModel)]="nomPersona">`
 
-Per utilitzar-lo és necessari importar `FormModule`
+Per utilitzar-lo **és necessari importar** `FormModule`
 
 **app.module.ts**
 ```csharp
