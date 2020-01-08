@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Angular](angular.md)
   * [Binding](angular/binding.md)
-  * Directives
+  * [Directives](angular/directives.md)
   * Services
   * Observables
   * Routing
