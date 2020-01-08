@@ -6,7 +6,7 @@
 
 ## ngIf
 
-```
+```csharp
 <p *ngIf="personaCreada; else sinPersona">{{agregarPersonaStatus}} con título {{tituloPersona}}</p>
 <ng-template #sinPersona>
     <p>No se ha agregado ninguna persona.</p>
@@ -14,3 +14,9 @@
 ```
 
 ## ngFor
+
+```csharp
+<div *ngFor="let persona of personas, let i = index">
+    {{i+1}}: {{persona.nombre}} {{persona.apellido}}
+</div>
+```
