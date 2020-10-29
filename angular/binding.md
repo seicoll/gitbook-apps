@@ -1,18 +1,18 @@
-# Binding en Angular
+# Binding
 
-
-> El **Binding** permet enllaçar les dades amb la vista (HTML) fent actualitzar la pàgina.
+> El **Binding** permet enllaçar les dades amb la vista \(HTML\) fent actualitzar la pàgina.
 
 Cada vegada que canviï el model també es canviarà la vista.
 
 En Angular hi ha diversos **tipus de binding**:
 
-* Del model a la vista --> `[]`
-* De la vista al model --> `()`
-* Bidireccional o en dos sentits --> `[()]`
+* Del model a la vista --&gt; `[]`
+* De la vista al model --&gt; `()`
+* Bidireccional o en dos sentits --&gt; `[()]`
 
-## Interpolació 
- En Angular, el que es col·loca entre les dobles claus són anomenades expressions. 
+## Interpolació
+
+En Angular, el que es col·loca entre les dobles claus són anomenades expressions.
 
 Angular les avaluarà abans de bolcar el resultat dins el template.
 
@@ -30,7 +30,7 @@ Una expressió pot ser una cosa tan simple com una **propietat del component.**
 
 Connectem una **propietat HTML** amb una **propietat de la Classe** que implementa el component:
 
-**HMTL Propierty <---> Class propierty**
+**HMTL Propierty &lt;---&gt; Class propierty**
 
 `<img [src]="rutaImatge">`
 
@@ -38,11 +38,11 @@ Connectem una **propietat HTML** amb una **propietat de la Classe** que implemen
 
 Al posar els claudàtors, els atributs HTML deixen de ser atributs de l'HTML per passar a ser propietats del template d'Angular.
 
-> Si la propietat del component canvia, actualitza la pàgina (el DOM).
+> Si la propietat del component canvia, actualitza la pàgina \(el DOM\).
 
 ## Event binding
 
-> L'**esdeveniment** es col·loca entre parèntesi i després cal assignar-li una sentència a executar (_**statement**_) com a resposta a aquest esdeveniment.
+> L'**esdeveniment** es col·loca entre parèntesi i després cal assignar-li una sentència a executar \(_**statement**_\) com a resposta a aquest esdeveniment.
 
 `(click) = "processarEvent($event)"`
 
@@ -70,9 +70,9 @@ showKey(event){
 
 ## Two way binding
 
-> En el **two way binding** (a dos sentits) la informació flueix en tots dos sentits, des del model a la vista i des de la vista a el model.
+> En el **two way binding** \(a dos sentits\) la informació flueix en tots dos sentits, des del model a la vista i des de la vista a el model.
 
-S'utilitza en els **formularis** i s'expressa entre claudàtors i parèntesis. 
+S'utilitza en els **formularis** i s'expressa entre claudàtors i parèntesis.
 
 `[(ngModel)] = "nomPersona"`
 
@@ -81,6 +81,7 @@ S'utilitza en els **formularis** i s'expressa entre claudàtors i parèntesis.
 Per utilitzar-lo **és necessari importar** `FormModule`
 
 **app.module.ts**
+
 ```csharp
 importem FormModule
 
@@ -96,6 +97,5 @@ import { FormsModule } from '@angular/forms';
 
 **Flux de la informació de la vista al model i del model a la vista:**
 
-![](/assets/angular-binding.png)
-
+![](../.gitbook/assets/angular-binding.png)
 

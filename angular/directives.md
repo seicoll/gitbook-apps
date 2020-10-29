@@ -1,8 +1,8 @@
 # Directives
 
-> El concepte de **directiva **està relacionat amb la modificació del DOM de la nostra pàgina.
+> El concepte de **directiva** està relacionat amb la modificació del DOM de la nostra pàgina.
 
-Una **_Directive _**és un marcador en una etiqueta HTML que li indica a Angular que ha d’executar algun codi Javascript.
+Una _**Directive**_ és un marcador en una etiqueta HTML que li indica a Angular que ha d’executar algun codi Javascript.
 
 ## ngIf
 
@@ -20,3 +20,4 @@ Una **_Directive _**és un marcador en una etiqueta HTML que li indica a Angular
     {{i+1}}: {{persona.nombre}} {{persona.apellido}}
 </div>
 ```
+

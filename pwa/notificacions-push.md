@@ -1,4 +1,4 @@
-# Enviar notificacions 
+# Enviar notificacions
 
 ## Notificacions vs Notificacion push
 
@@ -21,14 +21,14 @@ No estan associades a un Service Worker.
 
 Els navegadors que soporten notificacions push disposen d'un classe `Notification`.
 
-```js
+```javascript
 // Solicitar permiso al cargar la página
 document.addEventListener('DOMContentLoaded', function () {
   if (!Notification) {
     alert('Tu navegador no soporta notificaciones'); 
     return;
   }
-  
+
   if (Notification.permission === 'granted') {
     mostrarNotificacion();
   } 
@@ -52,14 +52,15 @@ function mostrarNotificacion() {
 
     notification.close();
   }
-}```
+}
+```
 
 ### Notificacions push persistents
 
 * Estàs associades a un Service Worker.
 * Tenen unes accions associades que podrà fer l'usuari.
 
-```js
+```javascript
 if (Notification.permission === 'granted') {
   mostrarNotificacion();
 } 
@@ -115,8 +116,7 @@ function mostrarNotificacion() {
     console.log('El usuario ha cerrado la notificación con la x');
   });
 
-  
+
 }
 ```
-
 

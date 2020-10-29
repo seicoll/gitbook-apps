@@ -1,15 +1,15 @@
-# Mobile App Development
+# Introduction
 
-* [Introduction](README.md)
-* [Angular](angular.md)
+* [Introduction](./)
+* [Angular](angular/)
   * [Binding](angular/binding.md)
   * [Directives](angular/directives.md)
   * Services
   * Observables
   * Routing
-* [Aplicacions híbrides](aplicacions-hibrides.md)
+* [Aplicacions híbrides](aplicacions-hibrides/)
   * [Ionic](aplicacions-hibrides/ionic.md)
-* [PWA](pwa.md)
-  * [Com fer la PWA instal·lable](chapter1.md)
-  * [Enviar notificacions](notificacions-push.md)
+* [PWA](pwa/)
+  * [Com fer la PWA instal·lable](pwa/chapter1.md)
+  * [Enviar notificacions](pwa/notificacions-push.md)
 
