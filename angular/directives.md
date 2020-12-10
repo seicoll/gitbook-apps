@@ -7,7 +7,9 @@ Una _**Directive**_ és un marcador en una etiqueta HTML que li indica a Angular
 ## ngIf
 
 ```csharp
-<p *ngIf="personaCreada; else sinPersona">{{agregarPersonaStatus}} con título {{tituloPersona}}</p>
+<p *ngIf="personaCreada; else sinPersona">
+   {{agregarPersonaStatus}} con título {{tituloPersona}}
+</p>
 <ng-template #sinPersona>
     <p>No se ha agregado ninguna persona.</p>
 </ng-template>
