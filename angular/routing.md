@@ -10,6 +10,7 @@
 
 #### 2. Afegir el mòdul al fitxer `app.module.ts`
 
+{% code title="app.module.ts" %}
 ```text
 @NgModule({
   imports: [
@@ -21,9 +22,11 @@
   bootstrap: [AppComponent]
 })
 ```
+{% endcode %}
 
-#### 3. Definir les rutes a l'array Routes a`app-routing.module.ts`
+#### 3. Definir les rutes a l'array Routes
 
+{% code title="app-routing.module.ts" %}
 ```text
 const routes: Routes = [
   { path: ''; component: LoginComponent},
@@ -31,25 +34,43 @@ const routes: Routes = [
   { path: 'second-component', component: SecondComponent },
 ];
 ```
+{% endcode %}
 
-**Exemple fitxer de rutes**
+**4. Afegir les rutes a l'aplicació**
 
+{% code title="app.component.html" %}
+```text
+<router-outlet></router-outlet>
+```
+{% endcode %}
+
+### **Exemple fitxer de rutes**
+
+{% code title="app-routing.module.ts" %}
 ```text
 const routes: Routes = [
   { path: '', component: PersonasComponent },
-  { path: 'personas', component: PersonasComponent, children: [
-     
-     { path: 'agregar', component: FormularioComponent },
-     // http://localhost:4200/personas/agregar
-     
-     // Ruta amb paràmetres
-     { path: ':id', component: FormularioComponent }, 
-     // http://localhost:4200/personas/1
-     
-  ] },
-  { path: '**', component: ErrorComponent}
+  { path: 'personas', component: PersonasComponent, 
+    children: [
+       { 
+         path: 'agregar', 
+         component: FormularioComponent 
+       },
+       // http://localhost:4200/personas/agregar
+       
+       // Ruta amb paràmetres
+       { 
+         path: ':id', 
+         component: FormularioComponent
+       }, 
+       // http://localhost:4200/personas/1
+       
+    ] 
+  },
+  { path: '**', component: PageNotFoundComponent}
 ];
 ```
+{% endcode %}
 
 **Més informació:** [https://angular.io/guide/router](https://angular.io/guide/router)
 
